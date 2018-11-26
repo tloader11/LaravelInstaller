@@ -9,6 +9,7 @@ Forked from [Rashid Laarsi](https://github.com/rashidlaasri/LaravelInstaller), w
 - Added 'oracle' as selectable option.
 
 ##Additional setup instructions
+
 <code>
 "repositories": [
         {
@@ -19,6 +20,7 @@ Forked from [Rashid Laarsi](https://github.com/rashidlaasri/LaravelInstaller), w
 </code>
 
 ##Please refer to his github for detailed setup instructions
+
 [rashidlaasri/LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller)
 
 ## License
