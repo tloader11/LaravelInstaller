@@ -10,14 +10,23 @@ Forked from [Rashid Laarsi](https://github.com/rashidlaasri/LaravelInstaller), w
 
 ##Additional setup instructions
 
-<code>
-"repositories": [
+Add this to your composer.json:<br>
+
+`"repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/tloader11/LaravelInstaller"
         }
-    ],
-</code>
+    ]`
+<br>
+next, use: <br>
+    `composer require rachidlaasri/laravel-installer:4.0.3`
+<br>
+this version currently overrides the latest stable release and thus gives you the oracle option.
+<br>Then use:<br>
+
+`php artisan vendor:publish --tag=laravelinstaller`
+
 
 ##Please refer to his github for detailed setup instructions
 
