@@ -8,9 +8,20 @@ Forked from [Rashid Laarsi](https://github.com/rashidlaasri/LaravelInstaller), w
 
 - Added 'oracle' as selectable option.
 
+##Additional setup instructions
+<code>
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tloader11/LaravelInstaller"
+        }
+    ],
+</code>
+
 ##Please refer to his github for detailed setup instructions
 [rashidlaasri/LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller)
 
 ## License
 
 Laravel Web Installer is licensed under the MIT license. Enjoy!
+
