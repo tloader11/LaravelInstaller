@@ -100,6 +100,7 @@ return [
                 'db_connection_label_sqlite' => 'sqlite',
                 'db_connection_label_pgsql' => 'pgsql',
                 'db_connection_label_sqlsrv' => 'sqlsrv',
+                'db_connection_label_oracle' => 'oracle',
                 'db_host_label' => 'Database Host',
                 'db_host_placeholder' => 'Database Host',
                 'db_port_label' => 'Database Port',

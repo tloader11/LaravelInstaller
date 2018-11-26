@@ -145,6 +145,7 @@
                         <option value="sqlite">{{ trans('installer_messages.environment.wizard.form.db_connection_label_sqlite') }}</option>
                         <option value="pgsql">{{ trans('installer_messages.environment.wizard.form.db_connection_label_pgsql') }}</option>
                         <option value="sqlsrv">{{ trans('installer_messages.environment.wizard.form.db_connection_label_sqlsrv') }}</option>
+                        <option value="oracle">{{ trans('installer_messages.environment.wizard.form.db_connection_label_oracle') }}</option>
                     </select>
                     @if ($errors->has('database_connection'))
                         <span class="error-block">
